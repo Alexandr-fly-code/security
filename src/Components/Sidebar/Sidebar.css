@@ -1,0 +1,112 @@
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 13px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  transition-duration: .3s;
+  color: red;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 25px;
+  top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #fff;
+}
+.bm-burger-bars:hover {
+  color: red;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #fff;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #282828;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #333;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #333;
+}
+
+
+.sportClub__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.berger-menu__list {
+  padding: 0;
+}
+.berger-menu__item {
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.burger__triangle {
+  margin-left: 7px;
+  height: 14px;
+  width: 14px;
+}
+.submenu__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 100%;
+  height: 75px;
+}
+.burger-menu__part {
+  text-shadow: 0 0 0px #fff; 
+}
+.burger-menu__part:hover {
+  transition-duration: 0.15s;
+  color: #fd7474;
+  text-shadow: 0 0 10px #C20E0B;
+}
+
+@media(min-width: 768px) {
+  .bm-burger-button {
+    display: none;
+  }
+}
